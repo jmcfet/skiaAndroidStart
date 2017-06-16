@@ -11,7 +11,6 @@ namespace androidSkia
     [Activity(Label = "androidSkia", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        List<EllipseDrawingFigure> completedFigures = new List<EllipseDrawingFigure>();
         SKCanvasView canvasView;
         protected override void OnCreate(Bundle bundle)
         {
